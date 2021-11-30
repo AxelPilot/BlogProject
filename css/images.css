@@ -7,6 +7,10 @@
         background-size:100% auto;
     }
 }
+
+/* "figure" and "figcaption" code copied from 
+   "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" */
+
 figure {
     border: thin #c0c0c0 solid;
     display: flex;
