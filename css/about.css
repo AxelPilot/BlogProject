@@ -1,0 +1,26 @@
+@import "typography.css";
+@import "layout.css";
+@import "images.css";
+@import "blog-card.css";
+
+/* Nested grid blog card container */
+
+.blogCardContainer {
+    display: grid;
+    grid-template-columns: 45%;
+    grid-auto-rows: minmax(480px, auto);
+    column-gap: 0px;
+    row-gap: 70px;
+    justify-content: space-evenly;
+    align-items: top;
+}
+
+#bio-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#bio {
+    font-size: 1.15rem;
+}
