@@ -47,7 +47,7 @@ button:hover {
     "footer-margin"
     "footer";
 }
-@media (min-width: 901px) {
+@media (min-width: 1101px) {
     .container {
         grid-template-rows: 130px 140px 1fr 30px 60px;
     }
@@ -73,7 +73,7 @@ button:hover {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
 }
-@media (min-width: 901px) {
+@media (min-width: 1101px) {
     .navigation {
         flex-direction: row;
     }    
