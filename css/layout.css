@@ -80,7 +80,7 @@ button:hover {
 }
 .navigation-item, .navigation-item > a {
     text-decoration: none;
-    text-shadow: #fff 1px 0 15px;
+    text-shadow: white 1px 0 15px;
 }
 .navigation-item > a:hover {
     text-decoration: underline;
